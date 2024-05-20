@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.detailText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.username{
+    font-weight: 500;
+}
+
+.author{
+    color:gray;
+    font-weight: bold;
+}
+
+.avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}

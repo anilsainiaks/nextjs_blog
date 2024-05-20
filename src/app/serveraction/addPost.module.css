@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.form input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form button{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 400ms ease-in-out;
+    border: none;
+}
+
+.form button:hover{
+    background-color: var(--bgSoft);
+    color: white;
+}
